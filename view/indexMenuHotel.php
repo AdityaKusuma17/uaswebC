@@ -55,7 +55,7 @@
                         <div class="card">
                             <img src="../img/imageForMenuTampilan/furama.jpg" class="card-img-top" alt="FuramaXclusive Ocean Beach Seminyak">
                             <div class="card-body">
-                                <h4 class="card-title">FuramaXclusive Ocean Beach</h4>
+                                <h4 class="card-title">FuramaXclusive</h4>
                                 <p class="card-text">
                                     <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                     <i class="fa-solid fa-star" style="color: #FFD43B;"></i>

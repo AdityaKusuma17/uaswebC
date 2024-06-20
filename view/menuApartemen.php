@@ -44,7 +44,7 @@
                 
             </div>   
         </div>
-    </header>
+</header>
 
     <main>
         <section class="apartemen-list py-5 mt-5">
@@ -61,7 +61,7 @@
                                     Jl Gunung Soputan, mahendradatta , kepuh segina, Denpasar Barat, Denpasar, Bali, Indonesia, 80117
                                 </h6>
                                 <p class="card-text">Start From IDR 412.500</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailApartemen/detail-1.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>  
                     </div>
@@ -75,7 +75,7 @@
                                     Jl. Muding Indah Gg. Palm no. 8, Kerobokan, Kuta, Denpasar, Bali, Canggu, Kuta Utara, Bali, Indonesia, 80363
                                 </h6>
                                 <p class="card-text">Start From IDR 406.686</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailApartemen/detail-2.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                                     Jl Imam Bonjol Perum Budha Cemeng Ukir No 1, Denpasar Barat, Denpasar, Bali, Indonesia, 80119
                                 </h6>
                                 <p class="card-text">Start From IDR 423.000</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailApartemen/detail-3.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
