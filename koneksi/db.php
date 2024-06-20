@@ -1,15 +1,20 @@
 <?php
+
+session_start();
+
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
 $dbname = 'user';
-$conn = mysqli_connect(
+
+$connect = new mysqli (
     $hostname,
     $username,
     $password,
     $dbname
 );
 
-if(!$conn){
-    echo "gagal koneksi";
-}
+
+?>
+
+

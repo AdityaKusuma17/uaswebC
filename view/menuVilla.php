@@ -18,23 +18,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <header class="bg-white shadow-sm">
-        <div class="container d-flex justify-content-between align-items-center py-3">
-            <img src="../img/logo.jpg" alt="Harum Logo" class="img-fluid" style="height: 40px;">
-            <nav class="d-flex">
-                <a href="#" class="text-dark mx-2">Hotel</a>
-                <a href="#" class="text-dark mx-2">Villa</a>
-                <a href="#" class="text-dark mx-2">Apartemen</a>
-            </nav>
-            <button class="btn btn-primary">Daftar</button>
+<header class="bg-white shadow-sm py-3 fw-bold fixed-top ">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <a href="indexUser.php">
+                    <img src="../img/logo.jpg" alt="Harum Logo" class="img-fluid" style="height: 40px;">
+                </a>
+            </div>
+            <div class="right-side d-flex align-items-center">
+                <nav class="navbar no-underline d-flex justify-content-end">
+                    <a href="indexMenuHotel.php" class="text-dark mx-2">Hotel</a>
+                    <a href="menuVilla.php" class="text-dark mx-2">Villa</a>
+                    <a href="menuApartemen.php" class="text-dark mx-2">Apartemen</a>
+                </nav>
+                <div class="dropdown ml-2">
+                    <a href="#" class="dropdown-toggle no-underline" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-user"></i> <span class="ms-2"></span> 
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="profile.php">Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="index.php">Log Out</a></li>
+                    </ul>
+                </div>
+                
+            </div>   
         </div>
     </header>
 
     <main>
-        <section class="villa-list py-5">
+        <section class="villa-list py-5 mt-5">
             <div class="container">
-                <h2>Recommended Villa</h2>
-                <div class="row">
+                <h2 class="ms-2">Recommended Villa</h2>
+                <div class="row mt-3">
                     <div class="col-md-4 mb-4">
                         <div class="card">
                             <img src="../img/imageForMenuTampilan/winaholyday-villa.jpg" class="card-img-top" alt="Wina holiday villa kuta bali">

@@ -1,24 +1,5 @@
 <?php
-
-include '../koneksi/db.php';
-
-if (isset($_POST['register'])) {
-    $email = $_POST["email"];
-    $password = $_POST["password"];
-    $username = $_POST["username"];
-
-
-    // Validasi data (lewati ini untuk contoh sederhana)
-
-    $sql = "INSERT INTO user_login (username, password,email) VALUES ('$username', '$password', '$email')";
-
-    if ($conn->query($sql) === TRUE) {
-        echo "Data berhasil disimpan.";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-}
-
+ 
 ?>
 
 <!DOCTYPE html>
@@ -54,7 +35,7 @@ if (isset($_POST['register'])) {
         </div>
     </header>
 
-    <!-- form -->
+    <!-- form login -->
     <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content rounded-5 border-0 shadow-lg" style="max-width: 400px;"> 
@@ -64,29 +45,28 @@ if (isset($_POST['register'])) {
                             <img src="../img/logo.jpg" alt="Logo Harum" style="max-width: 100px;" class="img-fluid">
                         </div>
                         <h2 class="h5 mb-4 fw-bold text-center">Login to Harum</h2>
-                        <form>
+                        <form action="../koneksi/login.php" method="post">
                             <div class="mb-3">
-                                <input type="text" class="form-control rounded-pill" id="usernameEmail" placeholder="Email or username">
+                                <input type="text" class="form-control rounded-pill" id="username" placeholder="username" name="username">
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control rounded-pill" id="password" placeholder="Password">
+                                <input type="password" class="form-control rounded-pill" id="password" placeholder="Password" name="password">
                             </div>
                             <div class="d-flex justify-content-end mb-3">
                                 <a href="javascript:void(0);" class="text-primary" id="showRegister">belum punya akun? daftar</a>
                             </div>
                             <div class="d-grid gap-2">
-                                <a href="indexUser.php" class="btn btn-primary rounded-pill btn-lg" role="button">Next</a>
+                                <button class="btn btn-primary rounded-pill btn-lg" type="submit">Login</button>
                             </div>
-                            
                         </form>
                     </div>
-
+                    <!-- form register -->
                     <div id="registerForm" class="d-none">
                         <div class="d-flex justify-content-center mb-4">
                             <img src="../img/logo.jpg" alt="Logo Harum" style="max-width: 100px;" class="img-fluid">
                         </div>
                         <h2 class="h5 mb-4 fw-bold text-center">Register to Harum</h2>
-                        <form method="POST">
+                        <form action="../koneksi/register.php" method="post">
                             <div class="mb-3">
                                 <input type="text" class="form-control rounded-pill" id="registerUsername" placeholder="Username" name="username">
                             </div>
@@ -100,15 +80,15 @@ if (isset($_POST['register'])) {
                                 <a href="javascript:void(0);" class="text-primary" id="showLogin">sudah punya akun? login</a>
                             </div>
                             <div class="d-grid gap-2">
-                                <button class="btn btn-primary rounded-pill btn-lg" name="register">Register</button>
+                                <button class="btn btn-primary rounded-pill btn-lg" type="submit">Register</button>
                             </div>
-                            
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Main Content --> 
     <main class="bg-light">
@@ -201,7 +181,7 @@ if (isset($_POST['register'])) {
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="../img/imageUtama/rek1.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -210,6 +190,14 @@ if (isset($_POST['register'])) {
                     <div class="col-md-4">
                         <div class="card" style="width: 18rem;">
                         <img src="../img/imageUtama/rek1.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="../img/imageUtama/rek1.jpeg"" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -257,7 +245,27 @@ if (isset($_POST['register'])) {
                 </div>
             </div>
         </footer>
-        <script src="./js/script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+        
+        <!-- js cdn swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- js costum -->
+        <script src="../js/script.js"></script>
+            <!-- bootstrap js -->
+        <script src="../js/bootstrap.bundle.min.js">
+
+        </script>
+
+        <script>
+            document.getElementById('showRegister').addEventListener('click', function() {
+                document.getElementById('loginForm').classList.add('d-none');
+                document.getElementById('registerForm').classList.remove('d-none');
+            });
+
+            document.getElementById('showLogin').addEventListener('click', function() {
+                document.getElementById('loginForm').classList.remove('d-none');
+                document.getElementById('registerForm').classList.add('d-none');
+            });
+        </script>
+
+    </body>
 </html>
