@@ -49,70 +49,69 @@
     <main>
         <section class="apartment-detail py-5 mt-5">
             <div class="container">
-                <h2>Bali True Living Apartment</h2>
+                <h2>The Rooms Apartment Bali by ARM Hospitality</h2>
                 <div class="row">
-                    <div class="col-md-8">
-                        <img src="../../img/imgDetailApartemen/IMG_0167-2.jpg" class="img-fluid" alt="The Rooms Apartment Bali by ARM Hospitality">
+                    <div class="col-md-6">
+                        <img src="../../img/imageForMenuTampilan/winaholyday-villa.jpg" class="img-fluid" alt="The Rooms Apartment Bali by ARM Hospitality">
                     </div>
-                    <div class="col-md-4">
-                        <h6>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            Jl Imam Bonjol Perum Budha Cemeng Ukir No 1, Denpasar Barat, Denpasar, Bali, Indonesia, 80119
-                        </h6>
-                        <p>Harga mulai dari IDR 423.000</p>
-                        <p>Deskripsi detail tentang apartemen...</p>
-                        <p>Apartment Bali True Living exclusively offers 4 suites. Each fitted with modern Balinese interiors. it also has private balconies surrounded by tropical gardens. 
-                            The suites equipped with kitchens, air conditioning, private bathroom with hot water, and amenities. </p>
+                    <div class="col-md-6">
+                        <p>
+                        This accommodation is the perfect choice for you and your partner to enjoy a romantic getaway. Experience a memorable stay with your loved one at Wina Holiday Villa Kuta Bali. Do you love shopping? Don't hesitate to stay at Wina Holiday Villa Kuta Bali.
+                        Its strategic location near various shopping destinations will delight you during your stay. Wina Holiday Villa Kuta Bali is a hotel near Ngurah Rai International Airport (DPS) and is an ideal choice for an overnight stay while waiting for your next flight.
+                        Enjoy a comfortable place to rest during your layover.
+                        </p>
                         <h2><strong>Fasilitas</strong></h2>
                         <div class="row">
                             <div class="col-md-6">
+                                <h5>Public Facilities</h5>
                                 <ul>
-                                    <li>Satellite and Cable TV with Premium Channel Included Wide Screen LED TV 32 “Inches</li>
-                                    <li>Air Conditioner</li>
-                                    <li>Sofa Bed + King Size Bed (180 x 200cm) + Over-sized Duvet</li>
-                                    <li>Wardrobe + Safety Deposit Box</li>
-                                    <li>Kitchen with Electric Stove + Cooking Exhaust</li>
+                                    <li>Parking</li>
+                                    <li>Coffee shop</li>
+                                    <li>Elevator</li>
+                                    <li>Restaurant</li>
+                                    <li>Breakfast restaurant</li>
+                                    <li>Dinner restaurant</li>
+                                    <li>Lunch restaurant</li>
+                                    <li>Room service</li>
+                                    <li>WiFi in public area</li>
                                 </ul>
                             </div>
                             <div class="col-md-6">
+                                <h5>In-room Facilities</h5>
                                 <ul>
-                                    <li>Balcony with a Tropical Style Garden</li>
-                                    <li>Private Bathroom</li>
-                                    <li>Free High Speed Wi-Fi Internet</li>
-                                    <li>Free Cleaning 3 times in 1 week</li>
-                                    <li>Free Bed Linen Change once a week</li>
-                                    <li>Free Monthly Apartment Maintenance fee</li>
-                                    <li>Free Water Bill</li>
-                                </ul>
+                                    <li>Shower</li>
+                                    <li>Cable TV</li>
+                                    <li>TV</li>
+                                    <li>Minibar</li>
+                                    <li>Desk</li>
+                                    <li>Kitchenette</li>
+                               </ul>
                             </div>
                         </div>
                         <button id="detailKamarBtn" class="btn btn-info">Detail Kamar</button>
                         <div id="detailKamar" class="mt-3" style="display: none;">
                             <h5>Detail Kamar</h5>
-                            <p>Kamar di Apartment Bali True Living dilengkapi dengan berbagai fasilitas modern untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower, TV layar datar, dan area dapur kecil.</p>
-                            <p>Harga per malam:  IDR 423.000</p>
+                            <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower, TV layar datar, dan area dapur kecil.</p>
+                            <p>Harga per malam: IDR 412.500</p>
                             <div class="row">
                                 <div class="col-md-4">
                                     <a href="kamar1.jpg" data-bs-toggle="modal" data-bs-target="#imageModal1">
-                                        <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 143814.png" class="img-fluid" alt="Kamar 1">
+                                        <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 125742.png" class="img-fluid" alt="Kamar 1">
                                     </a>
                                 </div>
                                 <div class="col-md-4">
                                     <a href="kamar2.jpg" data-bs-toggle="modal" data-bs-target="#imageModal2">
-                                        <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 142819.png" class="img-fluid" alt="Kamar 2">
+                                        <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 125808.png" class="img-fluid" alt="Kamar 2">
                                     </a>
                                 </div>
                             </div>
-                    </div>
-                        <a href="../menuApartemen.php" class="btn btn-secondary mt-3">Kembali</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
     
-
     <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -121,7 +120,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 142516.png" class="img-fluid" alt="Kamar 1">
+                    <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 130104.png" class="img-fluid" alt="Kamar 1">
                 </div>
             </div>
         </div>
@@ -134,13 +133,24 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 143017.png" class="img-fluid" alt="Kamar 2">
+                    <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 130120.png" class="img-fluid" alt="Kamar 2">
                 </div>
             </div>
         </div>
     </div>
-
-    <footer class="bg-white py-4">
+    <div class="container text-left mt-0">
+        <div class="row justify-content-left">
+            <div class="col-auto">
+                <h6>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    LOCATION
+                </h6>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.7532101984602!2d115.16738427359782!3d-8.714969388840249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246bf495fc8d3%3A0x51a793ba0e28d1bd!2sWina%20Holiday%20Villa%20Kuta!5e0!3m2!1sid!2sid!4v1718945655578!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+        </div>
+    </div>
+   <footer class="bg-white py-4">
         <div class="container d-flex justify-content-between align-items-center">
         <img src="../img/logo.jpg" alt="" class="img-fluid" style="height: 40px;">
             <span class="text-dark">©2024 - Harum</span>
@@ -151,7 +161,6 @@
             </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
         document.getElementById('detailKamarBtn').addEventListener('click', function() {

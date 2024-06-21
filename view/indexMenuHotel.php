@@ -68,7 +68,7 @@
                                     Jl. Arjuna No.88X, Legian, Kec. Kuta, Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 1.218.700</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-1.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
