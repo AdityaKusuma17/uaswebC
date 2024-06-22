@@ -1,3 +1,6 @@
+  <?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,8 +23,8 @@
                             <i class="fa-solid fa-user fa-2xl"></i> 
                             </div>
                             <div class="ms-3">
-                                <h6>username</h6>
-                                <p class="text-muted small">emailkamu@mail.com</p>
+                                <h6> <?= $_SESSION["username"] ?> </h6>
+                                <p class="text-muted small"><?= $_SESSION["email"] ?></p>
                             </div>
                         </div>
                         <p class="text-success mb-0"><i class="fas fa-check-circle"></i> Sudah Login</p>
