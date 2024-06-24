@@ -102,3 +102,7 @@ nav a {
 .list-group-item:hover {
   background-color: #f8f9fa; /* Light background on hover */
 }
+
+.bungkus-slider {
+  background-color: black;
+}

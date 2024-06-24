@@ -7,10 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
     $email = $connect->real_escape_string($_POST['email']);
 
-    // Hash the password with MD5
+    // ubah password dari text biasa ke md5 sebelum dikirim ke database
     $hashedPassword = md5($password);
 
-    $query = "INSERT INTO user_login (username, password, email) VALUES ('$username', '$hashedPassword', '$email')";
+    $query = "INSERT INTO users_login (username, password, email) VALUES ('$username', '$hashedPassword', '$email')";
 
     if (mysqli_query($connect, $query)) {
         echo "Berhasil disimpan";

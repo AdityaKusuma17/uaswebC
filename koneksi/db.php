@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
@@ -14,7 +12,8 @@ $connect = new mysqli (
     $dbname
 );
 
+if ($connect->connect_error) {
+    die("Connection failed: " . $connect->connect_error);
+}
 
 ?>
-
-

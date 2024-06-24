@@ -1,5 +1,8 @@
 <?php
- session_start();
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harum - Penginapan Murah di Bali</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/UTSwebC/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
@@ -103,13 +106,12 @@
         </section>
     </main>    
                
-
         <!-- subjudul -->
         <div class="subjudul mt-4 p-4">
             <h1 class="h2 font-weight-bold text-dark mb-3">Inspirasi hotel untuk kamu</h1>
             <p>Cek inspirasi menginapmu di Bali sekarang</p>
         </div>
-        
+    <section class="bg-secondary">    
         <!-- slider -->
         <div id="carouselExampleInterval" class="carousel slide p-3" data-bs-ride="carousel">
 			<div class="carousel-inner">
@@ -166,7 +168,7 @@
 			</button> -->
 		</div>
         <!-- end slider -->
-
+    </section>
         <!-- main content -->
         <div class="container mt-4 p-4">
         <div class="subjudul mt-4 p-4">
