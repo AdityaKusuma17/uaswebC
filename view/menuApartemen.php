@@ -27,7 +27,7 @@
             </div>
             <div class="right-side d-flex align-items-center">
                 <nav class="navbar no-underline d-flex justify-content-end">
-                    <a href="indexMenuHotel.php" class="text-dark mx-2">Hotel</a>
+                    <a href="menuHotel.php" class="text-dark mx-2">Hotel</a>
                     <a href="menuVilla.php" class="text-dark mx-2">Villa</a>
                     <a href="menuApartemen.php" class="text-dark mx-2">Apartemen</a>
                 </nav>

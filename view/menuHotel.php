@@ -27,7 +27,7 @@
             </div>
             <div class="right-side d-flex align-items-center">
                 <nav class="navbar no-underline d-flex justify-content-end">
-                    <a href="indexMenuHotel.php" class="text-dark mx-2">Hotel</a>
+                    <a href="menuHotel.php" class="text-dark mx-2">Hotel</a>
                     <a href="menuVilla.php" class="text-dark mx-2">Villa</a>
                     <a href="menuApartemen.php" class="text-dark mx-2">Apartemen</a>
                 </nav>
@@ -68,7 +68,7 @@
                                     Jl. Arjuna No.88X, Legian, Kec. Kuta, Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 1.218.700</p>
-                                <a href="./detailHotel/detail-1.php" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-FuramaXlusive.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                                     Jl. Raya Legian No.328, Legian, Kelod, Bali, 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 1.666.667</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-Mercure.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                                     Jl. Sunset Road No.101, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 1.682.802</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-swissBellhotel.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="../img/imageForMenuTampilan/pandawa.webp" class="card-img-top" alt="Pandawo Hill Resort">
+                            <img src="../img/imageForMenuTampilan/pandawa.webp" class="card-img-top" alt="Pandawa Hill Resort">
                             <div class="card-body">
                                 <h4 class="card-title">Pandawa Hill Resort</h4>
                                 <p class="card-text">
@@ -130,7 +130,7 @@
                                     Jl. Pantai Pandawa No.15, Kutuh, Kec. Kuta Sel., Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start from IDR 1.018.836</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-pandawa.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                                     Jl. Raya Legian No.73, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 1.000.000</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-harper.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                                     Jl. Arjuna Jl. Double Six, Seminyak, Kec. Kuta, Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 900.000</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-horison.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                                     Jl. Sunset Road No.150, Legian, Kec. Kuta, Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 680.833</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-brits.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                                     Jl. Drupadi No. 99, Seminyak, Seminyak, Kuta, Bali, Indonesia, 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 800.000</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-harris.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -232,7 +232,7 @@
                                     Jl. Raya Seminyak No.500, Seminyak, Kec. Kuta, Kabupaten Badung, Bali 80361
                                 </h6>
                                 <p class="card-text">Start From IDR 1.089.000</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailHotel/detail-theheaven.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>

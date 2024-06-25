@@ -219,33 +219,33 @@
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="path_to_your_image.jpg" class="card-img-top" alt="...">
+                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Nama Kamar 1</h5>
-                                <p class="card-text">Deskripsi singkat kamar.</p>
-                                <button class="btn btn-info mt-3" data-bs-toggle="modal"
-                                    data-bs-target="#detailKamarModal">Detail Kamar</button>
+                                <h5 class="card-title">Studio</h5>
+                                <p class="card-text">IDR 412.500</p>
+                                <button class="btn btn-info" data-bs-toggle="modal"
+                                    data-bs-target="#detailKamarModal-studio">Detail</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="path_to_your_image.jpg" class="card-img-top" alt="...">
+                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Nama Kamar 2</h5>
-                                <p class="card-text">Deskripsi singkat kamar.</p>
-                                <button class="btn btn-info mt-3" data-bs-toggle="modal" data-bs-target="#detailKamarModal">Detail Kamar</button>
+                                <h5 class="card-title">Suite 1 Bedroom</h5>
+                                <p class="card-text">IDR 412.500</p>
+                                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#detailKamarModal-suite1">Detail</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="path_to_your_image.jpg" class="card-img-top" alt="...">
+                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Nama Kamar 3</h5>
-                                <p class="card-text">Deskripsi singkat kamar.</p>
-                                <button class="btn btn-info mt-3" data-bs-toggle="modal"
-                                    data-bs-target="#detailKamarModal">Detail Kamar</button>
+                                <h5 class="card-title">Suite 2 Bedroom</h5>
+                                <p class="card-text">IDR 412.500</p>
+                                <button class="btn btn-info" data-bs-toggle="modal"
+                                    data-bs-target="#detailKamarModal-suite2">Detail</button>
                             </div>
                         </div>
                     </div>
@@ -270,12 +270,12 @@
     </main>
 
     <!-- Modal Section -->
-    <div class="modal fade" id="detailKamarModal" tabindex="-1" aria-labelledby="detailKamarModalLabel"
+    <div class="modal fade" id="detailKamarModal-studio" tabindex="-1" aria-labelledby="detailKamarModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content modal-content-scrollable">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Kamar</h5>
+                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Studio</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -286,11 +286,11 @@
                     <div class="row">
                     <p>The Rooms :</p>
                         <div class="col-md-4">
-                            <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 125742.png" class="img-fluid"
+                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
                                 alt="Kamar 1">
                         </div>
                         <div class="col-md-4">
-                            <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 125808.png" class="img-fluid"
+                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
                                 alt="Kamar 2">
                         </div>
                         <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
@@ -300,6 +300,67 @@
         </div>
     </div>
 
+    <!-- modal section untuk kamar suite 1 -->
+    <div class="modal fade" id="detailKamarModal-suite1" tabindex="-1" aria-labelledby="detailKamarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content modal-content-scrollable">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Suite 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
+                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
+                        TV layar datar, dan area dapur kecil.</p>
+                    <p>Harga per malam: IDR 12345678</p>
+                    <div class="row">
+                    <p>The Rooms :</p>
+                        <div class="col-md-4">
+                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
+                                alt="Kamar 1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
+                                alt="Kamar 2">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal untuk kmar suite 2 -->
+    <div class="modal fade" id="detailKamarModal-suite2" tabindex="-1" aria-labelledby="detailKamarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content modal-content-scrollable">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Suite 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
+                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
+                        TV layar datar, dan area dapur kecil.</p>
+                    <p>Harga per malam: IDR 412.500</p>
+                    <div class="row">
+                    <p>The Rooms :</p>
+                        <div class="col-md-4">
+                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
+                                alt="Kamar 1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
+                                alt="Kamar 2">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Footer -->
