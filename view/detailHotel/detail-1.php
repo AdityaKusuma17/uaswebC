@@ -212,7 +212,8 @@
         </section>
 
         <!-- Menu Kamar -->
-        <section class="menu-kamar py-5">
+        <hr>
+        <section class="menu-kamar py-3">
             <div class="container" id="rooms">
                 <h2 class="text-center text-primary mb-4">ROOMS</h2>
                 <div class="row">
@@ -257,7 +258,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-5">
-                        <h6><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h6>
+                        <h3><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h3>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.942873282106!2d115.16258877359753!3d-8.696975288602587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246e0820e5887%3A0x9742329b32b58f17!2sJl.%20Arjuna%20No.88x%2C%20Seminyak%2C%20Kec.%20Kuta%2C%20Kabupaten%20Badung%2C%20Bali%2080361!5e0!3m2!1sid!2sid!4v1718954464196!5m2!1sid!2sid"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -283,16 +284,16 @@
                         TV layar datar, dan area dapur kecil.</p>
                     <p>Harga per malam: IDR 412.500</p>
                     <div class="row">
+                    <p>The Rooms :</p>
                         <div class="col-md-4">
                             <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 125742.png" class="img-fluid"
                                 alt="Kamar 1">
-                            <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select
-                                Room</button>
                         </div>
                         <div class="col-md-4">
                             <img src="../../img/imgDetailApartemen/Screenshot 2024-06-13 125808.png" class="img-fluid"
                                 alt="Kamar 2">
                         </div>
+                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
                     </div>
                 </div>
             </div>
