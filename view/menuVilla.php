@@ -61,7 +61,7 @@
                                     Jl. Pantai Kuta, Kuta, Kec. Kuta, Kabupaten Badung, Bali
                                 </h6>
                                 <p class="card-text">Start From IDR 479.444</p>
-                                <a href="./detailVilla/detail-1.php" class="btn btn-primary">Detail</a>
+                                <a href="./detailVilla/detail-wina.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                 <h4 class="card-title">Noah Villa & Chapel</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    Jl. Indraprasta Br. Giri Dharma, Ungasan, Kec. Kuta Sel., Kabupaten Badung, Bali 80364
+                                    Jl. Indraprasta Br. Giri Dharma, Kabupaten Badung, Bali 80364
                                 </h6>
                                 <p class="card-text">Start From IDR 500.000</p>
                                 <a href="#" class="btn btn-primary">Detail</a>

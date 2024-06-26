@@ -113,7 +113,7 @@
         <section class="apartment-detail py-5 mt-5">
             <div class="container">
                 <div class="hotel-card row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <img src="../../img/imageForMenuTampilan/furama.jpg" class="img-fluid"
                             alt="The Rooms Apartment Bali by ARM Hospitality">
                     </div>
