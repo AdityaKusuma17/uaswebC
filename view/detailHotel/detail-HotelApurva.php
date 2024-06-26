@@ -100,7 +100,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="index.php">Log Out</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Log Out</a></li>
                     </ul>
                 </div>
 
