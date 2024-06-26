@@ -1,10 +1,7 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['username'])) {
-    header('Location: index.php');
-    exit();
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +10,7 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harum - Penginapan Murah di Bali</title>
-    <link rel="stylesheet" href="/UTSwebC/css/style.css">
+    <link rel="stylesheet" href="..css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -39,9 +36,9 @@ if (!isset($_SESSION['username'])) {
             </div>
             <div class="right-side d-flex align-items-center">
                 <nav class="navbar no-underline d-flex justify-content-end">
-                    <a href="indexMenuHotel.php" class="text-dark mx-2">Hotel</a>
-                    <a href="menuVilla.php" class="text-dark mx-2">Villa</a>
-                    <a href="menuApartemen.php" class="text-dark mx-2">Apartemen</a>
+                    <a href="indexMenuHotel.php" class="text-dark mx-2 text-decoration-none">Hotel</a>
+                    <a href="menuVilla.php" class="text-dark mx-2 text-decoration-none">Villa</a>
+                    <a href="menuApartemen.php" class="text-dark mx-2 text-decoration-none">Apartemen</a>
                 </nav>
                 <div class="dropdown ml-2">
                     <a href="#" class="dropdown-toggle no-underline" data-bs-toggle="dropdown" aria-expanded="false">
