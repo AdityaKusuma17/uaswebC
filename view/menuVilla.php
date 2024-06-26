@@ -61,7 +61,7 @@
                                     Jl. Pantai Kuta, Kuta, Kec. Kuta, Kabupaten Badung, Bali
                                 </h6>
                                 <p class="card-text">Start From IDR 479.444</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailVilla/detail-1.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>

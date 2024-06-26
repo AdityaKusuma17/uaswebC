@@ -103,9 +103,29 @@ nav a {
   background-color: #f8f9fa; /* Light background on hover */
 }
 
+
+/* untuk menu */
+.card-img-top {
+  height: 200px; /* Atur tinggi yang sama untuk semua gambar */
+  object-fit: cover; /* Agar gambar tetap proporsional */
+  width: 100%; /* Pastikan gambar mengambil lebar penuh dari card */
+}
+
 .bungkus-slider {
   background-color: black;
 }
 
 /* admin */
 
+
+.bungkus-slider {
+  background-color: black;
+}
+
+
+/* untuk menu */
+.card-img-top {
+  height: 200px; /* Atur tinggi yang sama untuk semua gambar */
+  object-fit: cover; /* Agar gambar tetap proporsional */
+  width: 100%; /* Pastikan gambar mengambil lebar penuh dari card */
+}

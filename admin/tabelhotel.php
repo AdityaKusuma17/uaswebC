@@ -7,6 +7,9 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'admin') {
     header('Location: ../view/index.php');
     exit();
 }
+
+
+// $user = query("SELECT * FROM users_login");
 ?>
 
 <!DOCTYPE html>

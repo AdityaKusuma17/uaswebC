@@ -44,7 +44,7 @@
                 
             </div>   
         </div>
-    </header>
+</header>
 
     <main>
         <section class="apartemen-list py-5 mt-5">
@@ -61,7 +61,7 @@
                                     Jl Gunung Soputan, mahendradatta , kepuh segina, Denpasar Barat, Denpasar, Bali, Indonesia, 80117
                                 </h6>
                                 <p class="card-text">Start From IDR 412.500</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailApartemen/detail-1.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>  
                     </div>
@@ -75,7 +75,7 @@
                                     Jl. Muding Indah Gg. Palm no. 8, Kerobokan, Kuta, Denpasar, Bali, Canggu, Kuta Utara, Bali, Indonesia, 80363
                                 </h6>
                                 <p class="card-text">Start From IDR 406.686</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailApartemen/detail-2.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -83,13 +83,13 @@
                         <div class="card">
                             <img src="../img/imageForMenuTampilan/balitrueliving-apartemen.webp" class="card-img-top" alt="Bali True Living Apartment">
                             <div class="card-body">
-                                <h4 class="card-title">Bali True Living Apartment</h4>
+                                <h4 class="card-title">Bali True Living <br>Apartment</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                                     Jl Imam Bonjol Perum Budha Cemeng Ukir No 1, Denpasar Barat, Denpasar, Bali, Indonesia, 80119
                                 </h6>
                                 <p class="card-text">Start From IDR 423.000</p>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="./detailApartemen/detail-3.php" class="btn btn-primary">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -99,15 +99,15 @@
     </main>
 
     <footer class="bg-white py-4">
-        <div class="container d-flex justify-content-between align-items-center">
-        <img src="../img/logo.jpg" alt="" class="img-fluid" style="height: 40px;">
-            <span class="text-dark">©2024 - Harum</span>
-            <div class="d-flex">
-                <a href="#" class="text-dark mx-2">Tim Developer</a>
-                <a href="#" class="text-dark mx-2">Kontak Kami</a>
-                <a href="#" class="text-dark mx-2">About</a>
+            <div class="container d-flex justify-content-between align-items-center">
+                <img src="../img/logo.jpg" alt="" class="img-fluid" style="height: 40px;">
+                <span class="text-dark">©2024 - Harum</span>
+                <div class="d-flex">
+                    <a href="#" class="text-dark mx-2">Tim Developer</a>
+                    <a href="#" class="text-dark mx-2">Kontak Kami</a>
+                    <a href="#" class="text-dark mx-2">About</a>
+                </div>
             </div>
-        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
