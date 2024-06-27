@@ -49,31 +49,6 @@
         padding: 20px;
     }
 
-    .hotel-title {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    .hotel-rating i {
-        color: #ffc107;
-    }
-
-    .select-rooms {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-        background-color: #007bff;
-        color: white;
-        font-size: 1.2rem;
-        border-radius: 5px;
-        text-decoration: none;
-        margin-top: 20px;
-    }
-
-    .select-rooms:hover {
-        background-color: #0056b3;
-    }
 </style>
 
 <body>
@@ -87,7 +62,7 @@
             </div>
             <div class="right-side d-flex align-items-center">
                 <nav class="navbar no-underline d-flex justify-content-end">
-                    <a href="../indexMenuHotel.php" class="text-dark mx-2">Hotel</a>
+                    <a href="../menuHotel.php" class="text-dark mx-2">Hotel</a>
                     <a href="../menuVilla.php" class="text-dark mx-2">Villa</a>
                     <a href="../menuApartemen.php" class="text-dark mx-2">Apartemen</a>
                 </nav>
@@ -100,7 +75,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="index.php">Log Out</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Log Out</a></li>
                     </ul>
                 </div>
 
@@ -113,255 +88,274 @@
         <section class="apartment-detail py-5 mt-5">
             <div class="container">
                 <div class="hotel-card row">
-                    <div class="col-md-6">
-                        <img src="../../img/imageForMenuTampilan/furama.jpg" class="img-fluid"
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="../../img/Hotels/detail-apurva.jpeg" class="img-fluid"
                             alt="The Rooms Apartment Bali by ARM Hospitality">
                     </div>
                     <div class="col-md-6 hotel-content">
-                        <div class="hotel-title">FuramaXclusive Ocean Beach Seminyak</div>
-                        <div class="hotel-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                        <div class="hotel-title text-primary fw-bold fs-2">The Apurva Kempinski Bali</div>
+                        <div class="card-body">
+                            <div class="hotel-rating text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                         <p>
-                            This accommodation is the perfect choice for you and your partner to enjoy a romantic
-                            getaway. Experience a memorable stay with your loved one at FuramaXclusive Ocean Beach
-                            Seminyak. Do you love shopping? Don't hesitate to stay at FuramaXclusive Ocean Beach
-                            Seminyak. Its strategic location near various shopping destinations will delight you during
-                            your stay.
+                            The Apurva Kempinski Bali is the right choice for those of you who want to spend time with
+                            various luxurious facilities. Enjoy the best quality service and a memorable experience
+                            while staying at this accommodation.
+                            Spa services are the number one facility in this accommodation. Spend your time relaxing and
+                            pampering yourself.
+                            The Apurva Kempinski Bali has all the business support facilities for you and your
+                            colleagues.
+                            The Apurva Kempinski Bali is the right place to stay for those of you on holiday with your
+                            family. Enjoy all the entertainment facilities for you and your family.
                         </p>
-                        <a href="#rooms" class="select-rooms">SELECT ROOMS</a>
+                        <a class="btn btn-primary w-100" href="#" role="button">SELECT ROOM</a>
                     </div>
                 </div>
+                <hr><br>
                 <div class="row">
-                    <h2 class="text-primary mb-4">Facilities</h2>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-bed me-2"></i>Room Amenities</h5>
-                        <ul class="list-unstyled">
-                            <li>Bathroom</li>
-                            <li>Cable TV</li>
-                            <li>Desk</li>
-                            <li>Shower</li>
-                            <li>TV</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-building me-2"></i>Public Facilities</h5>
-                        <ul class="list-unstyled">
-                            <li>Parking area</li>
-                            <li>Café</li>
-                            <li>Elevator</li>
-                            <li>Restaurant</li>
-                            <li>Room service</li>
-                            <li>Safe</li>
-                            <li>WiFi in public areas</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-utensils me-2"></i>Food and Beverage</h5>
-                        <ul class="list-unstyled">
-                            <li>Bar</li>
-                            <li>Breakfast</li>
-                            <li>Buffet breakfast</li>
-                            <li>Café</li>
-                            <li>Show cooking restaurant</li>
-                            <li>Snacks</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-concierge-bell me-2"></i>Hotel Services</h5>
-                        <ul class="list-unstyled">
-                            <li>Bellboy</li>
-                            <li>Concierge/guest services</li>
-                            <li>Money changer</li>
-                            <li>24-hour front desk</li>
-                            <li>24-hour security</li>
-                            <li>Laundry</li>
-                            <li>Limited hours room service</li>
-                            <li>Luggage storage</li>
-                            <li>Tour services</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-child me-2"></i>Other Activities</h5>
-                        <ul class="list-unstyled">
+                    <h2 class="text-primary mb-5 text-center fw-bold">FACILITIES</h2>
+                    <div class="col-md-4 mb-5">
+                        <h5><i class="fas fa-sun"></i> Other Activities</h5>
+                        <ul>
+                            <li>Beach tent</li>
+                            <li>Beach sun loungers</li>
+                            <li>Beach towel</li>
+                            <li>Beach umbrella</li>
                             <li>Children's play area</li>
-                            <li>Garden</li>
+                            <li>Fitness center</li>
+                            <li>Park</li>
                             <li>Massage services</li>
                             <li>Outdoor swimming pool</li>
                             <li>Poolside sun loungers</li>
                             <li>Spa</li>
                             <li>Sun loungers</li>
+                            <li>Swimming pool slide</li>
                         </ul>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-snowflake me-2"></i>General</h5>
-                        <ul class="list-unstyled">
-                            <li>Air conditioning</li>
-                            <li>Family room</li>
+                    <!-- Hotel Services -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-concierge-bell"></i> Hotel Services</h5>
+                        <ul>
+                            <li>Bellboy</li>
+                            <li>Welcome drink</li>
+                            <li>Concierge/guest services</li>
+                            <li>Gatekeeper</li>
+                            <li>Receptionist</li>
+                            <li>24 hour reception</li>
+                            <li>24 hour security</li>
+                            <li>Laundry</li>
+                            <li>Luggage storage</li>
+                            <li>Medical services</li>
+                            <li>Multilingual staff</li>
+                            <li>Porter</li>
+                            <li>Tour services</li>
+                            <li>Marriage facilities</li>
+                        </ul>
+                    </div>
+                    <!-- Food and Drink -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-utensils"></i> Food and Drink</h5>
+                        <ul>
+                            <li>Air-conditioned restaurant</li>
+                            <li>Dinner from the menu</li>
+                            <li>Lunch from the menu</li>
+                            <li>Bar</li>
+                            <li>Beach bar</li>
+                            <li>Breakfast</li>
+                            <li>Buffet breakfast</li>
+                            <li>Expensive breakfast</li>
+                            <li>No alcoholic drinks</li>
+                            <li>Set menu dinner</li>
+                            <li>Lunch menu</li>
+                            <li>Winery</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Public Facility -->
+                    <div class="col-md-4 mb-5 facility-section">
+                        <h5><i class="fas fa-building"></i> Public Facility</h5>
+                        <ul>
+                            <li>Parking area</li>
+                            <li>Coffee/tea in the lobby</li>
+                            <li>Lift</li>
+                            <li>Restaurant</li>
+                            <li>Restaurant for breakfast</li>
+                            <li>Restaurant for dinner</li>
+                            <li>Restaurant for lunch</li>
+                            <li>Safe</li>
+                            <li>WiFi in public areas</li>
+                        </ul>
+                    </div>
+                    <!-- Room Facilities -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-bed"></i> Room Facilities</h5>
+                        <ul>
+                            <li>Bathrobe</li>
+                            <li>Bathtub</li>
+                            <li>Table</li>
+                            <li>Hairdryer</li>
+                            <li>Room safe</li>
+                            <li>Separate shower and bath</li>
+                            <li>Shower</li>
+                            <li>TV</li>
+                        </ul>
+                    </div>
+                    <!-- General -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-cogs"></i> General</h5>
+                        <ul>
+                            <li>AC</li>
+                            <li>Classroom</li>
+                            <li>Banquet</li>
                             <li>Smoke-free area</li>
                             <li>Swimming pool</li>
                             <li>Terrace</li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Menu Kamar -->
-        <hr>
-        <section class="menu-kamar py-3">
-            <div class="container" id="rooms">
-                <h2 class="text-center text-primary mb-4">ROOMS</h2>
                 <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Studio</h5>
-                                <p class="card-text">IDR 412.500</p>
-                                <button class="btn btn-info" data-bs-toggle="modal"
-                                    data-bs-target="#detailKamarModal-studio">Detail</button>
-                            </div>
-                        </div>
+                    <!-- Business Facilities -->
+                    <div class="col-md-4 mb-5 facility-section">
+                        <h5><i class="fas fa-briefcase"></i> Business Facilities</h5>
+                        <ul>
+                            <li>Business facilities</li>
+                            <li>Meeting room</li>
+                            <li>Meeting facilities</li>
+                            <li>Projector</li>
+                        </ul>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Suite 1 Bedroom</h5>
-                                <p class="card-text">IDR 412.500</p>
-                                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#detailKamarModal-suite1">Detail</button>
-                            </div>
-                        </div>
+                    <!-- Accessibility -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-wheelchair"></i> Accessibility</h5>
+                        <ul>
+                            <li>Toilet for disabled people</li>
+                            <li>Roads for the disabled</li>
+                            <li>Location is easy to access</li>
+                            <li>Accessible for people with disabilities</li>
+                        </ul>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Suite 2 Bedroom</h5>
-                                <p class="card-text">IDR 412.500</p>
-                                <button class="btn btn-info" data-bs-toggle="modal"
-                                    data-bs-target="#detailKamarModal-suite2">Detail</button>
-                            </div>
-                        </div>
+                    <!-- Sports & Recreation -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-basketball-ball"></i> Sports & Recreation</h5>
+                        <ul>
+                            <li>Beach volleyball</li>
+                            <li>Kano</li>
+                            <li>Fitness center</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Family Friendly Facilities -->
+                    <div class="col-md-4 mb-5 facility-section">
+                        <h5><i class="fas fa-child"></i> Family Friendly Facilities</h5>
+                        <ul>
+                            <li>Kids club</li>
+                            <li>Children's swimming pool</li>
+                        </ul>
+                    </div>
+                    <!-- Children and Pets -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-paw"></i> Children and Pets</h5>
+                        <ul>
+                            <li>Childcare</li>
+                            <li>CRIBS</li>
+                        </ul>
+                    </div>
+                    <!-- Transportation -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-shuttle-van"></i> Transportation</h5>
+                        <ul>
+                            <li>Transportation to shopping center</li>
+                            <li>Valet parking</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Connectivity -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-wifi"></i> Connectivity</h5>
+                        <ul>
+                            <li>Free WIFI</li>
+                        </ul>
+                    </div>
+                    <!-- Nearby Facilities -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-map-marker-alt"></i> Nearby Facilities</h5>
+                        <ul>
+                            <li>ATM/Bank</li>
+                            <li>Shop</li>
+                        </ul>
+                    </div>
+                    <!-- Shuttle Service -->
+                    <div class="col-md-4 facility-section">
+                        <h5><i class="fas fa-bus"></i> Shuttle Service</h5>
+                        <ul>
+                            <li>Airport shuttle is charged</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-
+        <hr><br>
         <!-- Map Section -->
         <section class="location py-3">
             <div class="container">
                 <div class="row">
+                    <h3 class="text-primary fw-bold"><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h3>
                     <div class="col-5">
-                        <h3><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h3>
+                        <br>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.942873282106!2d115.16258877359753!3d-8.696975288602587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246e0820e5887%3A0x9742329b32b58f17!2sJl.%20Arjuna%20No.88x%2C%20Seminyak%2C%20Kec.%20Kuta%2C%20Kabupaten%20Badung%2C%20Bali%2080361!5e0!3m2!1sid!2sid!4v1718954464196!5m2!1sid!2sid"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.5470990034173!2d115.21300307360009!3d-8.828546490352572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd25cc0e01a2dfb%3A0x486d1b655b87ed9c!2sThe%20Apurva%20Kempinski%20Bali!5e0!3m2!1sid!2sid!4v1719387900596!5m2!1sid!2sid"
+                            width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <div class="col-md-6">
+                        <div class="card mt-4">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Strategic Location</h5>
+                                <p class="card-text"><i class="fas fa-map-pin"></i> Near Bali Collection Nusa Dua</p>
+                                <div>
+                                    <h6>Around the Property</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-between">
+                                            <span><i class="fas fa-landmark"></i> Pura Geger</span>
+                                            <span>1.33 km</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between">
+                                            <span><i class="fas fa-briefcase"></i> Bali International Convention
+                                                Center</span>
+                                            <span>3.90 km</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mt-3">
+                                    <h6>Popular in This Area</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-between">
+                                            <span><i class="fas fa-umbrella-beach"></i> Menglat Beach</span>
+                                            <span>2.89 km</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between">
+                                            <span><i class="fas fa-landmark"></i> Pura Geger</span>
+                                            <span>1.33 km</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
     </main>
-
-    <!-- Modal Section -->
-    <div class="modal fade" id="detailKamarModal-studio" tabindex="-1" aria-labelledby="detailKamarModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content modal-content-scrollable">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Studio</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
-                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
-                        TV layar datar, dan area dapur kecil.</p>
-                    <p>Harga per malam: IDR 412.500</p>
-                    <div class="row">
-                    <p>The Rooms :</p>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 1">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 2">
-                        </div>
-                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- modal section untuk kamar suite 1 -->
-    <div class="modal fade" id="detailKamarModal-suite1" tabindex="-1" aria-labelledby="detailKamarModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content modal-content-scrollable">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Suite 1</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
-                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
-                        TV layar datar, dan area dapur kecil.</p>
-                    <p>Harga per malam: IDR 12345678</p>
-                    <div class="row">
-                    <p>The Rooms :</p>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 1">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 2">
-                        </div>
-                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- modal untuk kmar suite 2 -->
-    <div class="modal fade" id="detailKamarModal-suite2" tabindex="-1" aria-labelledby="detailKamarModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content modal-content-scrollable">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Suite 2</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
-                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
-                        TV layar datar, dan area dapur kecil.</p>
-                    <p>Harga per malam: IDR 412.500</p>
-                    <div class="row">
-                    <p>The Rooms :</p>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 1">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 2">
-                        </div>
-                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- Footer -->
     <footer class="bg-white py-4">
@@ -379,14 +373,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script>
-        document.getElementById('detailKamarBtn').addEventListener('click', function () {
-            var detailKamarModal = new bootstrap.Modal(document.getElementById('detailKamarModal'), {
-                keyboard: false
-            });
-            detailKamarModal.show();
-        });
-    </script>
 </body>
 
 </html>

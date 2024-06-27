@@ -88,11 +88,12 @@
             <div class="container">
                 <div class="hotel-card row">
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <img src="../../img/imageForMenuTampilan/furama.jpg" class="img-fluid"
+                        <img src="../../img/Hotels/detail-alamubudculture.jpeg" class="img-fluid"
                             alt="The Rooms Apartment Bali by ARM Hospitality">
                     </div>
                     <div class="col-md-6 hotel-content">
-                        <div class="hotel-title text-primary fw-bold fs-2">FuramaXclusive Ocean Beach Seminyak</div>
+                        <div class="hotel-title text-primary fw-bold fs-3">Alam Ubud Culture, Environment Villas &
+                            Residences</div>
                         <div class="card-body">
                             <div class="hotel-rating text-warning">
                                 <i class="fas fa-star"></i>
@@ -104,20 +105,13 @@
                         </div>
                         <p>
                             This hotel is the perfect choice for couples seeking a romantic getaway or a honeymoon
-                            retreat. Enjoy the most memorable nights with your loved one by staying at FuramaXclusive
-                            Ocean Beach Seminyak.
-
-                            Are you a shopaholic? Staying at FuramaXclusive Ocean Beach Seminyak will surely spoil you
-                            for numerous shopping centers nearby.
-
-                            Have fun with various entertaining facilities for you and the whole family at FuramaXclusive
-                            Ocean Beach Seminyak, a wonderful accommodation for your family holiday.
-
-                            This hotel is the best spot for you who desire a serene and peaceful getaway, far away from
-                            the crowds.
-
-                            The highest quality service accompanying its extensive facilities will make you get the
-                            ultimate holiday experience.
+                            retreat. Enjoy the most memorable nights with your loved one by staying at Alam Ubud
+                            Culture, Environment Villas & Residences.
+                            Spa treatment is one of the main features of the hotel. Pamper yourself with the relaxing
+                            treatment that rejuvenates you.
+                            If you plan to have a long-term stay, staying at Alam Ubud Culture, Environment Villas &
+                            Residences is the right choice for you. Providing wide range of facilities and great service
+                            quality, this accommodation certainly makes you feel at home.
                         </p>
                         <a class="btn btn-primary w-100" href="#" role="button">SELECT ROOM</a>
                     </div>
@@ -125,138 +119,106 @@
                 <hr><br>
                 <div class="row">
                     <h2 class="text-primary mb-5 text-center fw-bold">FACILITIES</h2>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-bed me-2"></i>Room Amenities</h5>
+                    <div class="col-md-4 mb-5">
+                        <h5><i class="fas fa-building"></i> Public Facilities</h5>
                         <ul>
-                            <li>Bathroom</li>
-                            <li>Cable TV</li>
-                            <li>Desk</li>
-                            <li>Shower</li>
-                            <li>TV</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-building me-2"></i>Public Facilities</h5>
-                        <ul>
-                            <li>Parking area</li>
-                            <li>Café</li>
-                            <li>Elevator</li>
+                            <li>Parking</li>
+                            <li>Coffee shop</li>
                             <li>Restaurant</li>
                             <li>Room service</li>
-                            <li>Safe</li>
-                            <li>WiFi in public areas</li>
+                            <li>Safety deposit box</li>
+                            <li>WiFi in public area</li>
                         </ul>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-utensils me-2"></i>Food and Beverage</h5>
+                    <div class="col-md-4">
+                        <h5><i class="fas fa-concierge-bell"></i> Hotel Services</h5>
+                        <ul>
+                            <li>Laundry service</li>
+                            <li>Luggage storage</li>
+                            <li>Tours</li>
+                        </ul>
+                        <h5 class="mt-4"><i class="fas fa-briefcase"></i> Business Facilities</h5>
+                        <ul>
+                            <li>Meeting facilities</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5><i class="fas fa-cocktail"></i> Food and Drinks</h5>
                         <ul>
                             <li>Bar</li>
-                            <li>Breakfast</li>
-                            <li>Buffet breakfast</li>
-                            <li>Café</li>
-                            <li>Show cooking restaurant</li>
-                            <li>Snacks</li>
+                        </ul>
+                        <h5 class="mt-4"><i class="fas fa-smoking"></i> General</h5>
+                        <ul>
+                            <li>Smoking area</li>
                         </ul>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-concierge-bell me-2"></i>Hotel Services</h5>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <h5><i class="fas fa-snowboarding"></i> Things to Do</h5>
                         <ul>
-                            <li>Bellboy</li>
-                            <li>Concierge/guest services</li>
-                            <li>Money changer</li>
-                            <li>24-hour front desk</li>
-                            <li>24-hour security</li>
-                            <li>Laundry</li>
-                            <li>Limited hours room service</li>
-                            <li>Luggage storage</li>
-                            <li>Tour services</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-child me-2"></i>Other Activities</h5>
-                        <ul>
-                            <li>Children's play area</li>
                             <li>Garden</li>
-                            <li>Massage services</li>
-                            <li>Outdoor swimming pool</li>
-                            <li>Poolside sun loungers</li>
+                            <li>Massage</li>
+                            <li>Outdoor pool</li>
                             <li>Spa</li>
-                            <li>Sun loungers</li>
                         </ul>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <h5><i class="fas fa-snowflake me-2"></i>General</h5>
+                    <div class="col-md-4">
+                        <h5><i class="fas fa-car"></i> Transportation</h5>
                         <ul>
-                            <li>Air conditioning</li>
-                            <li>Family room</li>
-                            <li>Smoke-free area</li>
-                            <li>Swimming pool</li>
-                            <li>Terrace</li>
+                            <li>Airport transfer</li>
+                            <li>Bicycle rental</li>
+                            <li>Car rental</li>
+                            <li>Valet parking</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
         <hr><br>
+
         <!-- Map Section -->
         <section class="location py-3">
             <div class="container">
                 <div class="row">
-                    <h3 class="text-primary fw-bold"><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h3>
+                    <h3 class="text-primary"><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h3>
                     <div class="col-5">
                         <br>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.942873282106!2d115.16258877359753!3d-8.696975288602587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246e0820e5887%3A0x9742329b32b58f17!2sJl.%20Arjuna%20No.88x%2C%20Seminyak%2C%20Kec.%20Kuta%2C%20Kabupaten%20Badung%2C%20Bali%2080361!5e0!3m2!1sid!2sid!4v1718954464196!5m2!1sid!2sid"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.436026069195!2d115.27935287359281!3d-8.456908485482144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd223ffffe05a87%3A0x25df276e240ca261!2sAlam%20Ubud%20Culture%20Villas%20%26%20Residences!5e0!3m2!1sid!2sid!4v1719413791294!5m2!1sid!2sid"
                             width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-md-6">
                         <div class="card mt-4">
                             <div class="card-body">
-                                    <div>
-                                        <h6>Around entertainment center</h6>
-                                        <ul class="list-unstyled">
-                                            <li class="d-flex justify-content-between">
-                                                <span><i class="fas fa-tree"></i> Double Six Beach</span>
-                                                <span>113 m</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <span><i class="fas fa-shopping-cart"></i> Bintang Supermarket</span>
-                                                <span>768 m</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <span><i class="fas fa-spa"></i> Prana Spa</span>
-                                                <span>1.37 km</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <span><i class="fas fa-plane"></i> Ngurah Rai International
-                                                    Airport</span>
-                                                <span>5.41 km</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="mt-3">
-                                        <h6>Popular in This Area</h6>
-                                        <ul class="list-unstyled">
-                                            <li class="d-flex justify-content-between">
-                                                <span><i class="fas fa-gas-pump"></i> SPBU Kunti</span>
-                                                <span>1.44 km</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <span><i class="fas fa-umbrella-beach"></i> Kuta Beach</span>
-                                                <span>2.35 km</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <span><i class="fas fa-landmark"></i> Petitenget Temple</span>
-                                                <span>2.10 km</span>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div>
+                                    <h6>Nearby Places</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-between">
+                                            <span><i class="fas fa-landmark"></i> Tegallalang Rice Terrace</span>
+                                            <span>2.63 km</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between">
+                                            <span><i class="fas fa-spa"></i> The Yoga Barn</span>
+                                            <span>7.35 km</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mt-3">
+                                    <h6>Popular in the Area</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-between">
+                                            <span><i class="fas fa-landmark"></i> Tegallalang Rice Terrace</span>
+                                            <span>2.63 km</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
