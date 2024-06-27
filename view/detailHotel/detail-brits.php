@@ -48,7 +48,6 @@
     .hotel-content {
         padding: 20px;
     }
-
 </style>
 
 <body>
@@ -89,11 +88,11 @@
             <div class="container">
                 <div class="hotel-card row">
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <img src="../../img/Hotels/detail-apurva.jpeg" class="img-fluid"
+                        <img src="../../img/imageForMenuTampilan/britshotel.jpg" class="img-fluid"
                             alt="The Rooms Apartment Bali by ARM Hospitality">
                     </div>
                     <div class="col-md-6 hotel-content">
-                        <div class="hotel-title text-primary fw-bold fs-2">The Apurva Kempinski Bali</div>
+                        <div class="hotel-title text-primary fw-bold fs-2">Brits Hotel Legian</div>
                         <div class="card-body">
                             <div class="hotel-rating text-warning">
                                 <i class="fas fa-star"></i>
@@ -104,15 +103,7 @@
                             </div>
                         </div>
                         <p>
-                            The Apurva Kempinski Bali is the right choice for those of you who want to spend time with
-                            various luxurious facilities. Enjoy the best quality service and a memorable experience
-                            while staying at this accommodation.
-                            Spa services are the number one facility in this accommodation. Spend your time relaxing and
-                            pampering yourself.
-                            The Apurva Kempinski Bali has all the business support facilities for you and your
-                            colleagues.
-                            The Apurva Kempinski Bali is the right place to stay for those of you on holiday with your
-                            family. Enjoy all the entertainment facilities for you and your family.
+                            
                         </p>
                         <a class="btn btn-primary w-100" href="#" role="button">SELECT ROOM</a>
                     </div>
@@ -120,184 +111,73 @@
                 <hr><br>
                 <div class="row">
                     <h2 class="text-primary mb-5 text-center fw-bold">FACILITIES</h2>
-                    <div class="col-md-4 mb-5">
-                        <h5><i class="fas fa-sun"></i> Other Activities</h5>
+                    <div class="col-md-4 mb-4">
+                        <h5><i class="fas fa-bed me-2"></i>Room Amenities</h5>
                         <ul>
-                            <li>Beach tent</li>
-                            <li>Beach sun loungers</li>
-                            <li>Beach towel</li>
-                            <li>Beach umbrella</li>
+                            <li>Bathroom</li>
+                            <li>Cable TV</li>
+                            <li>Desk</li>
+                            <li>Shower</li>
+                            <li>TV</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5><i class="fas fa-building me-2"></i>Public Facilities</h5>
+                        <ul>
+                            <li>Parking area</li>
+                            <li>Café</li>
+                            <li>Elevator</li>
+                            <li>Restaurant</li>
+                            <li>Room service</li>
+                            <li>Safe</li>
+                            <li>WiFi in public areas</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5><i class="fas fa-utensils me-2"></i>Food and Beverage</h5>
+                        <ul>
+                            <li>Bar</li>
+                            <li>Breakfast</li>
+                            <li>Buffet breakfast</li>
+                            <li>Café</li>
+                            <li>Show cooking restaurant</li>
+                            <li>Snacks</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5><i class="fas fa-concierge-bell me-2"></i>Hotel Services</h5>
+                        <ul>
+                            <li>Bellboy</li>
+                            <li>Concierge/guest services</li>
+                            <li>Money changer</li>
+                            <li>24-hour front desk</li>
+                            <li>24-hour security</li>
+                            <li>Laundry</li>
+                            <li>Limited hours room service</li>
+                            <li>Luggage storage</li>
+                            <li>Tour services</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5><i class="fas fa-child me-2"></i>Other Activities</h5>
+                        <ul>
                             <li>Children's play area</li>
-                            <li>Fitness center</li>
-                            <li>Park</li>
+                            <li>Garden</li>
                             <li>Massage services</li>
                             <li>Outdoor swimming pool</li>
                             <li>Poolside sun loungers</li>
                             <li>Spa</li>
                             <li>Sun loungers</li>
-                            <li>Swimming pool slide</li>
                         </ul>
                     </div>
-                    <!-- Hotel Services -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-concierge-bell"></i> Hotel Services</h5>
+                    <div class="col-md-4 mb-4">
+                        <h5><i class="fas fa-snowflake me-2"></i>General</h5>
                         <ul>
-                            <li>Bellboy</li>
-                            <li>Welcome drink</li>
-                            <li>Concierge/guest services</li>
-                            <li>Gatekeeper</li>
-                            <li>Receptionist</li>
-                            <li>24 hour reception</li>
-                            <li>24 hour security</li>
-                            <li>Laundry</li>
-                            <li>Luggage storage</li>
-                            <li>Medical services</li>
-                            <li>Multilingual staff</li>
-                            <li>Porter</li>
-                            <li>Tour services</li>
-                            <li>Marriage facilities</li>
-                        </ul>
-                    </div>
-                    <!-- Food and Drink -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-utensils"></i> Food and Drink</h5>
-                        <ul>
-                            <li>Air-conditioned restaurant</li>
-                            <li>Dinner from the menu</li>
-                            <li>Lunch from the menu</li>
-                            <li>Bar</li>
-                            <li>Beach bar</li>
-                            <li>Breakfast</li>
-                            <li>Buffet breakfast</li>
-                            <li>Expensive breakfast</li>
-                            <li>No alcoholic drinks</li>
-                            <li>Set menu dinner</li>
-                            <li>Lunch menu</li>
-                            <li>Winery</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Public Facility -->
-                    <div class="col-md-4 mb-5 facility-section">
-                        <h5><i class="fas fa-building"></i> Public Facility</h5>
-                        <ul>
-                            <li>Parking area</li>
-                            <li>Coffee/tea in the lobby</li>
-                            <li>Lift</li>
-                            <li>Restaurant</li>
-                            <li>Restaurant for breakfast</li>
-                            <li>Restaurant for dinner</li>
-                            <li>Restaurant for lunch</li>
-                            <li>Safe</li>
-                            <li>WiFi in public areas</li>
-                        </ul>
-                    </div>
-                    <!-- Room Facilities -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-bed"></i> Room Facilities</h5>
-                        <ul>
-                            <li>Bathrobe</li>
-                            <li>Bathtub</li>
-                            <li>Table</li>
-                            <li>Hairdryer</li>
-                            <li>Room safe</li>
-                            <li>Separate shower and bath</li>
-                            <li>Shower</li>
-                            <li>TV</li>
-                        </ul>
-                    </div>
-                    <!-- General -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-cogs"></i> General</h5>
-                        <ul>
-                            <li>AC</li>
-                            <li>Classroom</li>
-                            <li>Banquet</li>
+                            <li>Air conditioning</li>
+                            <li>Family room</li>
                             <li>Smoke-free area</li>
                             <li>Swimming pool</li>
                             <li>Terrace</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Business Facilities -->
-                    <div class="col-md-4 mb-5 facility-section">
-                        <h5><i class="fas fa-briefcase"></i> Business Facilities</h5>
-                        <ul>
-                            <li>Business facilities</li>
-                            <li>Meeting room</li>
-                            <li>Meeting facilities</li>
-                            <li>Projector</li>
-                        </ul>
-                    </div>
-                    <!-- Accessibility -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-wheelchair"></i> Accessibility</h5>
-                        <ul>
-                            <li>Toilet for disabled people</li>
-                            <li>Roads for the disabled</li>
-                            <li>Location is easy to access</li>
-                            <li>Accessible for people with disabilities</li>
-                        </ul>
-                    </div>
-                    <!-- Sports & Recreation -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-basketball-ball"></i> Sports & Recreation</h5>
-                        <ul>
-                            <li>Beach volleyball</li>
-                            <li>Kano</li>
-                            <li>Fitness center</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Family Friendly Facilities -->
-                    <div class="col-md-4 mb-5 facility-section">
-                        <h5><i class="fas fa-child"></i> Family Friendly Facilities</h5>
-                        <ul>
-                            <li>Kids club</li>
-                            <li>Children's swimming pool</li>
-                        </ul>
-                    </div>
-                    <!-- Children and Pets -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-paw"></i> Children and Pets</h5>
-                        <ul>
-                            <li>Childcare</li>
-                            <li>CRIBS</li>
-                        </ul>
-                    </div>
-                    <!-- Transportation -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-shuttle-van"></i> Transportation</h5>
-                        <ul>
-                            <li>Transportation to shopping center</li>
-                            <li>Valet parking</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Connectivity -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-wifi"></i> Connectivity</h5>
-                        <ul>
-                            <li>Free WIFI</li>
-                        </ul>
-                    </div>
-                    <!-- Nearby Facilities -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-map-marker-alt"></i> Nearby Facilities</h5>
-                        <ul>
-                            <li>ATM/Bank</li>
-                            <li>Shop</li>
-                        </ul>
-                    </div>
-                    <!-- Shuttle Service -->
-                    <div class="col-md-4 facility-section">
-                        <h5><i class="fas fa-bus"></i> Shuttle Service</h5>
-                        <ul>
-                            <li>Airport shuttle is charged</li>
                         </ul>
                     </div>
                 </div>
@@ -312,46 +192,56 @@
                     <div class="col-5">
                         <br>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.5470990034173!2d115.21300307360009!3d-8.828546490352572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd25cc0e01a2dfb%3A0x486d1b655b87ed9c!2sThe%20Apurva%20Kempinski%20Bali!5e0!3m2!1sid!2sid!4v1719387900596!5m2!1sid!2sid"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.942873282106!2d115.16258877359753!3d-8.696975288602587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246e0820e5887%3A0x9742329b32b58f17!2sJl.%20Arjuna%20No.88x%2C%20Seminyak%2C%20Kec.%20Kuta%2C%20Kabupaten%20Badung%2C%20Bali%2080361!5e0!3m2!1sid!2sid!4v1718954464196!5m2!1sid!2sid"
                             width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-md-6">
                         <div class="card mt-4">
                             <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Strategic Location</h5>
-                                <p class="card-text"><i class="fas fa-map-pin"></i> Near Bali Collection Nusa Dua</p>
-                                <div>
-                                    <h6>Around the Property</h6>
-                                    <ul class="list-unstyled">
-                                        <li class="d-flex justify-content-between">
-                                            <span><i class="fas fa-landmark"></i> Pura Geger</span>
-                                            <span>1.33 km</span>
-                                        </li>
-                                        <li class="d-flex justify-content-between">
-                                            <span><i class="fas fa-briefcase"></i> Bali International Convention
-                                                Center</span>
-                                            <span>3.90 km</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="mt-3">
-                                    <h6>Popular in This Area</h6>
-                                    <ul class="list-unstyled">
-                                        <li class="d-flex justify-content-between">
-                                            <span><i class="fas fa-umbrella-beach"></i> Menglat Beach</span>
-                                            <span>2.89 km</span>
-                                        </li>
-                                        <li class="d-flex justify-content-between">
-                                            <span><i class="fas fa-landmark"></i> Pura Geger</span>
-                                            <span>1.33 km</span>
-                                        </li>
-                                    </ul>
+                                    <div>
+                                        <h6>Around entertainment center</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-tree"></i> Double Six Beach</span>
+                                                <span>113 m</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-shopping-cart"></i> Bintang Supermarket</span>
+                                                <span>768 m</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-spa"></i> Prana Spa</span>
+                                                <span>1.37 km</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-plane"></i> Ngurah Rai International
+                                                    Airport</span>
+                                                <span>5.41 km</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mt-3">
+                                        <h6>Popular in This Area</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-gas-pump"></i> SPBU Kunti</span>
+                                                <span>1.44 km</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-umbrella-beach"></i> Kuta Beach</span>
+                                                <span>2.35 km</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-landmark"></i> Petitenget Temple</span>
+                                                <span>2.10 km</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

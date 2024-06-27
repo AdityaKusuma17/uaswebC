@@ -48,32 +48,6 @@
     .hotel-content {
         padding: 20px;
     }
-
-    .hotel-title {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    .hotel-rating i {
-        color: #ffc107;
-    }
-
-    .select-rooms {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-        background-color: #007bff;
-        color: white;
-        font-size: 1.2rem;
-        border-radius: 5px;
-        text-decoration: none;
-        margin-top: 20px;
-    }
-
-    .select-rooms:hover {
-        background-color: #0056b3;
-    }
 </style>
 
 <body>
@@ -100,7 +74,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="index.php">Log Out</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Log Out</a></li>
                     </ul>
                 </div>
 
@@ -113,34 +87,33 @@
         <section class="apartment-detail py-5 mt-5">
             <div class="container">
                 <div class="hotel-card row">
-                    <div class="col-md-6">
-                        <img src="../../img/imageForMenuTampilan/furama.jpg" class="img-fluid"
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="../../img/imageForMenuTampilan/horison.webp" class="img-fluid"
                             alt="The Rooms Apartment Bali by ARM Hospitality">
                     </div>
                     <div class="col-md-6 hotel-content">
-                        <div class="hotel-title">FuramaXclusive Ocean Beach Seminyak</div>
-                        <div class="hotel-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                        <div class="hotel-title text-primary fw-bold fs-2">Horison Seminyak</div>
+                        <div class="card-body">
+                            <div class="hotel-rating text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                         <p>
-                            This accommodation is the perfect choice for you and your partner to enjoy a romantic
-                            getaway. Experience a memorable stay with your loved one at FuramaXclusive Ocean Beach
-                            Seminyak. Do you love shopping? Don't hesitate to stay at FuramaXclusive Ocean Beach
-                            Seminyak. Its strategic location near various shopping destinations will delight you during
-                            your stay.
+                            
                         </p>
-                        <a href="#rooms" class="select-rooms">SELECT ROOMS</a>
+                        <a class="btn btn-primary w-100" href="#" role="button">SELECT ROOM</a>
                     </div>
                 </div>
+                <hr><br>
                 <div class="row">
-                    <h2 class="text-primary mb-4">Facilities</h2>
+                    <h2 class="text-primary mb-5 text-center fw-bold">FACILITIES</h2>
                     <div class="col-md-4 mb-4">
                         <h5><i class="fas fa-bed me-2"></i>Room Amenities</h5>
-                        <ul class="list-unstyled">
+                        <ul>
                             <li>Bathroom</li>
                             <li>Cable TV</li>
                             <li>Desk</li>
@@ -150,7 +123,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <h5><i class="fas fa-building me-2"></i>Public Facilities</h5>
-                        <ul class="list-unstyled">
+                        <ul>
                             <li>Parking area</li>
                             <li>Café</li>
                             <li>Elevator</li>
@@ -162,7 +135,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <h5><i class="fas fa-utensils me-2"></i>Food and Beverage</h5>
-                        <ul class="list-unstyled">
+                        <ul>
                             <li>Bar</li>
                             <li>Breakfast</li>
                             <li>Buffet breakfast</li>
@@ -173,7 +146,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <h5><i class="fas fa-concierge-bell me-2"></i>Hotel Services</h5>
-                        <ul class="list-unstyled">
+                        <ul>
                             <li>Bellboy</li>
                             <li>Concierge/guest services</li>
                             <li>Money changer</li>
@@ -187,7 +160,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <h5><i class="fas fa-child me-2"></i>Other Activities</h5>
-                        <ul class="list-unstyled">
+                        <ul>
                             <li>Children's play area</li>
                             <li>Garden</li>
                             <li>Massage services</li>
@@ -199,7 +172,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <h5><i class="fas fa-snowflake me-2"></i>General</h5>
-                        <ul class="list-unstyled">
+                        <ul>
                             <li>Air conditioning</li>
                             <li>Family room</li>
                             <li>Smoke-free area</li>
@@ -210,158 +183,69 @@
                 </div>
             </div>
         </section>
-
-        <!-- Menu Kamar -->
-        <hr>
-        <section class="menu-kamar py-3">
-            <div class="container" id="rooms">
-                <h2 class="text-center text-primary mb-4">ROOMS</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Studio</h5>
-                                <p class="card-text">IDR 412.500</p>
-                                <button class="btn btn-info" data-bs-toggle="modal"
-                                    data-bs-target="#detailKamarModal-studio">Detail</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Suite 1 Bedroom</h5>
-                                <p class="card-text">IDR 412.500</p>
-                                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#detailKamarModal-suite1">Detail</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Suite 2 Bedroom</h5>
-                                <p class="card-text">IDR 412.500</p>
-                                <button class="btn btn-info" data-bs-toggle="modal"
-                                    data-bs-target="#detailKamarModal-suite2">Detail</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        <hr><br>
         <!-- Map Section -->
         <section class="location py-3">
             <div class="container">
                 <div class="row">
+                    <h3 class="text-primary fw-bold"><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h3>
                     <div class="col-5">
-                        <h3><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</h3>
+                        <br>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.942873282106!2d115.16258877359753!3d-8.696975288602587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246e0820e5887%3A0x9742329b32b58f17!2sJl.%20Arjuna%20No.88x%2C%20Seminyak%2C%20Kec.%20Kuta%2C%20Kabupaten%20Badung%2C%20Bali%2080361!5e0!3m2!1sid!2sid!4v1718954464196!5m2!1sid!2sid"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mt-4">
+                            <div class="card-body">
+                                    <div>
+                                        <h6>Around entertainment center</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-tree"></i> Double Six Beach</span>
+                                                <span>113 m</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-shopping-cart"></i> Bintang Supermarket</span>
+                                                <span>768 m</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-spa"></i> Prana Spa</span>
+                                                <span>1.37 km</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-plane"></i> Ngurah Rai International
+                                                    Airport</span>
+                                                <span>5.41 km</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mt-3">
+                                        <h6>Popular in This Area</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-gas-pump"></i> SPBU Kunti</span>
+                                                <span>1.44 km</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-umbrella-beach"></i> Kuta Beach</span>
+                                                <span>2.35 km</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <span><i class="fas fa-landmark"></i> Petitenget Temple</span>
+                                                <span>2.10 km</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
-    <!-- Modal Section -->
-    <div class="modal fade" id="detailKamarModal-studio" tabindex="-1" aria-labelledby="detailKamarModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content modal-content-scrollable">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Studio</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
-                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
-                        TV layar datar, dan area dapur kecil.</p>
-                    <p>Harga per malam: IDR 412.500</p>
-                    <div class="row">
-                    <p>The Rooms :</p>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 1">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 2">
-                        </div>
-                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- modal section untuk kamar suite 1 -->
-    <div class="modal fade" id="detailKamarModal-suite1" tabindex="-1" aria-labelledby="detailKamarModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content modal-content-scrollable">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Suite 1</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
-                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
-                        TV layar datar, dan area dapur kecil.</p>
-                    <p>Harga per malam: IDR 12345678</p>
-                    <div class="row">
-                    <p>The Rooms :</p>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 1">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 2">
-                        </div>
-                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- modal untuk kmar suite 2 -->
-    <div class="modal fade" id="detailKamarModal-suite2" tabindex="-1" aria-labelledby="detailKamarModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content modal-content-scrollable">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailKamarModalLabel">Detail Room Suite 2</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Kamar di The Rooms Apartment Bali by ARM Hospitality dilengkapi dengan berbagai fasilitas modern
-                        untuk kenyamanan Anda, termasuk AC, tempat tidur yang nyaman, kamar mandi pribadi dengan shower,
-                        TV layar datar, dan area dapur kecil.</p>
-                    <p>Harga per malam: IDR 412.500</p>
-                    <div class="row">
-                    <p>The Rooms :</p>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 1">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="../../img/Hotels/rooms2-furamax.jpeg" class="img-fluid"
-                                alt="Kamar 2">
-                        </div>
-                        <button type="button" class="btn btn-primary btn-sm d-block mx-auto mt-2">Select Room</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- Footer -->
     <footer class="bg-white py-4">
@@ -379,14 +263,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script>
-        document.getElementById('detailKamarBtn').addEventListener('click', function () {
-            var detailKamarModal = new bootstrap.Modal(document.getElementById('detailKamarModal'), {
-                keyboard: false
-            });
-            detailKamarModal.show();
-        });
-    </script>
 </body>
 
 </html>

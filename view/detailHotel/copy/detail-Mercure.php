@@ -118,7 +118,7 @@
                             alt="The Rooms Apartment Bali by ARM Hospitality">
                     </div>
                     <div class="col-md-6 hotel-content">
-                        <div class="hotel-title">FuramaXclusive Ocean Beach Seminyak</div>
+                        <div class="hotel-title"></div>
                         <div class="hotel-rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
